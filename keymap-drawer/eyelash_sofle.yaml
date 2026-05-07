@@ -13,8 +13,8 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - SLEEP
+  - $$mdi:backspace-reverse-outline$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-esc$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, h: VIM, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
@@ -52,10 +52,10 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - LMETA
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYMBOLS}
   - $$mdi:keyboard-space$$
   - LAYER2
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   LAYER1:
   - {t: '`', s: '~'}
   - F1
@@ -458,3 +458,7 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
+- p: [53, 39]
+  k: $$mdi:progress-download$$
+- p: [51, 63]
+  k: $$mdi:progress-download$$
