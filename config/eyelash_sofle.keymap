@@ -105,7 +105,7 @@
 
         Symbols {
             bindings = <
-&tog 4  &kp F1       &kp F2       &kp F3                &kp F4                 &kp F5       &trans  &kp F6     &kp F7             &kp F8             &kp F9          &kp F10    &kp F11
+&trans  &kp F1       &kp F2       &kp F3                &kp F4                 &kp F5       &trans  &kp F6     &kp F7             &kp F8             &kp F9          &kp F10    &kp F11
 &trans  &kp EXCL     &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE     &trans  &trans     &kp LESS_THAN      &kp GREATER_THAN   &kp MINUS       &kp PLUS   &kp F12
 &trans  &kp POUND    &kp DLLR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &trans  &kp CARET  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp UNDERSCORE  &kp EQUAL  &trans
 &trans  &kp PERCENT  &kp CARET    &kp AMPERSAND         &kp ASTERISK           &kp TILDE    &trans  &trans     &kp DOUBLE_QUOTES  &kp SQT            &kp SQT         &trans     &trans
@@ -139,18 +139,6 @@
             >;
 
             label = "bluetooth";
-        };
-
-        Game {
-            bindings = <
-&kp ESC     &kp N1  &kp N2  &kp N3   &kp N4     &kp N5       &trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
-&kp DELETE  &trans  &trans  &trans   &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT   &trans  &trans  &trans   &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL   &trans  &trans  &trans   &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &kp TAB  &kp SPACE  &kp RCTRL    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "game";
         };
     };
 };
