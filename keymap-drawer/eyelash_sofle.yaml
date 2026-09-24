@@ -86,7 +86,7 @@ layers:
   - '}'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&uk_pound'
   - <
   - '>'
   - {t: '-', s: _}
