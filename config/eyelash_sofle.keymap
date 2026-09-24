@@ -89,7 +89,7 @@
         uk_pound: uk_pound {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LC(U)) &kp &kp N0 &kp N0 &kp A &kp N3 &kp ENTER>;
+            bindings = <&kp LS(LC(U)) &kp N0 &kp N0 &kp A &kp N3 &kp ENTER>;
             label = "UK_POUND";
         };
     };
