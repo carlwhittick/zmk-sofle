@@ -66,7 +66,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   SYMBOLS:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - F1
   - F2
   - F3
@@ -86,7 +86,7 @@ layers:
   - '}'
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&uk_pound'
+  - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
   - {t: '-', s: _}
